@@ -8,7 +8,7 @@ Connect AI assistants (Claude, ChatGPT, Cursor, and more) to Telegram via the Mo
 
 Open-source MCP server, published to npm as [`@overpod/mcp-telegram`](https://www.npmjs.com/package/@overpod/mcp-telegram). Self-hosted, stdio transport, zero-install via `npx`.
 
-- 59+ tools: messages, media, reactions, polls, stickers, contacts, groups, sessions, privacy
+- tools: messages, media, reactions, polls, stickers, contacts, groups, sessions, privacy
 - Supports Claude Desktop, Claude Code, ChatGPT Desktop, Cursor, Mastra, and any MCP-compatible client
 - Pre-built binaries for Linux, macOS, Windows (no Node.js required)
 - Docs: [mcp-telegram.github.io/mcp-telegram](https://mcp-telegram.github.io/mcp-telegram/) — English, Russian, Chinese
