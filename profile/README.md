@@ -13,7 +13,7 @@ Built on Telegram's MTProto API with [GramJS](https://github.com/gram-js/gramjs)
 | Best for | Claude Code, Claude Desktop, Cursor, Codex and other local clients | claude.ai, ChatGPT and other remote clients |
 | Docs | [mcp-telegram.github.io/mcp-telegram](https://mcp-telegram.github.io/mcp-telegram/) (English, Russian, Chinese) | [mcp-telegram.com/docs](https://mcp-telegram.com/docs/quickstart) |
 
-In the ChatGPT plugin directory the hosted version is submitted under the name **Chatroost**.
+The hosted version is listed in the ChatGPT and Claude directories under the name **Chatroost** (both listings are in progress).
 
 ## Get involved
 
