@@ -1,29 +1,27 @@
-# MCP Telegram
+# mcp-telegram
 
-Connect AI assistants (Claude, ChatGPT, Cursor, and more) to Telegram via the Model Context Protocol. Built on GramJS/MTProto — runs as a userbot under your personal Telegram account with full access to chats, contacts, and message history.
+Connect your personal Telegram account to Claude, ChatGPT, Cursor and any other [Model Context Protocol](https://modelcontextprotocol.io/) client. Your assistant can catch up on unread chats, search your message history, read channels and forum topics, open media, and reply or react — with outgoing messages shown to you before they are sent.
 
-## Projects
+Built on Telegram's MTProto API with [GramJS](https://github.com/gram-js/gramjs). Open source under the MIT license.
 
-### [mcp-telegram](https://github.com/mcp-telegram/mcp-telegram)
+## Two ways to use it
 
-Open-source MCP server, published to npm as [`@overpod/mcp-telegram`](https://www.npmjs.com/package/@overpod/mcp-telegram). Self-hosted, stdio transport, zero-install via `npx`.
+| | [mcp-telegram](https://github.com/mcp-telegram/mcp-telegram) | [mcp-telegram-cloud](https://github.com/mcp-telegram/mcp-telegram-cloud) |
+|---|---|---|
+| What | The MCP server: 180+ tools, CLI, `serve` daemon | Hosted multi-user version with OAuth and QR login |
+| Run it | `npx @overpod/mcp-telegram`, Docker or a prebuilt binary | Use [mcp-telegram.com](https://mcp-telegram.com) or self-host with Docker |
+| Best for | Claude Code, Claude Desktop, Cursor, Codex and other local clients | claude.ai, ChatGPT and other remote clients |
+| Docs | [mcp-telegram.github.io/mcp-telegram](https://mcp-telegram.github.io/mcp-telegram/) (English, Russian, Chinese) | [mcp-telegram.com/docs](https://mcp-telegram.com/docs/quickstart) |
 
-- tools: messages, media, reactions, polls, stickers, contacts, groups, sessions, privacy
-- Supports Claude Desktop, Claude Code, ChatGPT Desktop, Cursor, Mastra, and any MCP-compatible client
-- Pre-built binaries for Linux, macOS, Windows (no Node.js required)
-- Docs: [mcp-telegram.github.io/mcp-telegram](https://mcp-telegram.github.io/mcp-telegram/) — English, Russian, Chinese
+In the ChatGPT plugin directory the hosted version is submitted under the name **Chatroost**.
 
-### [mcp-telegram-cloud](https://mcp-telegram.com)
+## Get involved
 
-Hosted version for Claude.ai and ChatGPT Apps. OAuth 2.0 + QR login — connect Telegram in 30 seconds, no API keys to manage, no local setup.
+- **Roadmap:** the public [roadmap board](https://github.com/orgs/mcp-telegram/projects/1). Look for `good first issue` and `help wanted`.
+- **Questions and ideas:** [Discussions](https://github.com/mcp-telegram/mcp-telegram/discussions).
+- **Bugs:** [mcp-telegram issues](https://github.com/mcp-telegram/mcp-telegram/issues/new/choose) for tools and the CLI, [mcp-telegram-cloud issues](https://github.com/mcp-telegram/mcp-telegram-cloud/issues/new/choose) for the hosted service.
+- **Security:** report privately, see [SECURITY.md](https://github.com/mcp-telegram/.github/blob/main/SECURITY.md).
 
-- HTTP/SSE transport, multi-user
-- Tools: read (messages, chats, profiles, media, reactions, stickers) + safe state-change (send, reactions, mark-as-read, group management)
-- Privacy: [mcp-telegram.com/privacy](https://mcp-telegram.com/privacy) · Terms: [mcp-telegram.com/terms](https://mcp-telegram.com/terms)
+You can write in any language.
 
-## Links
-
-- Website: [mcp-telegram.com](https://mcp-telegram.com)
-- npm: [`@overpod/mcp-telegram`](https://www.npmjs.com/package/@overpod/mcp-telegram)
-- MCP Protocol: [modelcontextprotocol.io](https://modelcontextprotocol.io/)
-- Contact: [@overpod](https://t.me/overpod) on Telegram
+mcp-telegram is an independent project and is not affiliated with Telegram. Contact: [@overpod](https://t.me/overpod) on Telegram.
